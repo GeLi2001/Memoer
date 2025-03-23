@@ -1,0 +1,23 @@
+# Source code (since we publish compiled code)
+src/
+
+# Development files
+examples/
+tests/
+*.test.ts
+*.spec.ts
+
+# Configuration files
+tsconfig.json
+.eslintrc
+.prettierrc
+
+# Build process
+rollup.config.js
+webpack.config.js
+
+# Misc
+.DS_Store
+.vscode/
+.idea/
+*.log

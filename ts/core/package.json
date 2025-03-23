@@ -1,0 +1,36 @@
+{
+  "name": "memoer",
+  "version": "0.1.0",
+  "description": "Memory management system for LLMs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "npm run clean && tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "memory",
+    "ai",
+    "conversation",
+    "context"
+  ],
+  "author": "Ge Li",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "ai": ">=2.0.0"
+  },
+  "peerDependencies": {
+    "ai": ">=2.0.0"
+  },
+  "devDependencies": {
+    "rimraf": "^6.0.1",
+    "typescript": "^5.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

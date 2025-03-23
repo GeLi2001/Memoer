@@ -1,0 +1,19 @@
+{
+  "name": "memoer-ts",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "pnpm -r build",
+    "test": "pnpm -r test",
+    "dev": "pnpm -r dev"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "ai": "latest"
+  },
+  "engines": {
+    "node": ">=16",
+    "pnpm": ">=7"
+  },
+  "license": "Apache-2.0"
+}
