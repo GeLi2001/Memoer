@@ -8,7 +8,7 @@ A memory management system for LLMs.
 
 ## AI SDK Native Support
 
-Direct/Native compatibility with [AI SDK](https://github.com/vercel/ai) - the mainstream unified llm api interface in typescript.
+Direct/Native compatibility with Vercel's [AI SDK](https://github.com/vercel/ai) - the mainstream unified llm api interface in typescript.
 
 ## Installation
 
