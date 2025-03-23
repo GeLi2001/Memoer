@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://raw.githubusercontent.com/GeLi2001/memoer/main/assets/memoer.webp" alt="Memoer" width="400"/>
+<img src="https://raw.githubusercontent.com/GeLi2001/memoer/main/assets/memoer.webp" alt="Memoer" width="200"/>
 </div>
 
 # memoer
