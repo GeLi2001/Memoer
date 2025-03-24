@@ -21,8 +21,7 @@ npm install memoer
 ## Usage
 
 ```typescript
-import { memoer, MemoryConfig } from "memoer";
-import { ConversationStrategy } from "memoer/dist/memory/managers/conversation/types";
+import { memoer, MemoryConfig, ConversationStrategy } from "memoer";
 
 // Create a new memory instance
 const memoryConfig: MemoryConfig = {
@@ -41,10 +40,7 @@ const memoryConfig: MemoryConfig = {
 };
 
 // Initialize the memory
-memoer.createMemory(memoryConfig);
-
-// Retrieve the memory by ID
-const memory = memoer.memory({ id: "conversation-1" });
+const memory = memoer.createMemory(memoryConfig);
 
 // Add messages to the conversation
 memory.conversation.add({
