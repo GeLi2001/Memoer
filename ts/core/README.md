@@ -10,6 +10,10 @@ A memory management system for LLMs.
 
 Direct/Native compatibility with Vercel's [AI SDK](https://github.com/vercel/ai) - the mainstream unified llm api interface in typescript.
 
+## Community
+
+Join our [Discord community](https://discord.gg/pNkEk4b4TW) for discussions, help and updates.
+
 ## Installation
 
 ```bash
@@ -56,10 +60,6 @@ const context = await memory.conversation.getContext();
 // Get full conversation history regardless of strategy
 const fullHistory = await memory.conversation.getFullContext();
 ```
-
-## Community
-
-Join our [Discord community](https://discord.gg/pNkEk4b4TW) for discussions, help and updates.
 
 ## Contributing
 
