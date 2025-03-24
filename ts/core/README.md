@@ -4,7 +4,7 @@
 
 # memoer
 
-A memory management system for LLMs.
+A memory management system for LLMs. [documentation](https://memoer-doc.vercel.app/docs/intro)
 
 ## AI SDK Native Support
 
