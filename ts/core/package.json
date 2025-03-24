@@ -1,12 +1,23 @@
 {
   "name": "memoer",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Memory management system for LLMs",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./types": {
+      "import": "./dist/index.d.ts",
+      "require": "./dist/index.d.ts"
+    }
+  },
   "scripts": {
     "clean": "rimraf dist",
     "build": "npm run clean && tsc",

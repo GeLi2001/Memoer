@@ -11,4 +11,6 @@ export const memoer: Memoer = {
   }
 };
 
+export * from "./memory/managers/base";
+export * from "./memory/managers/conversation/types";
 export * from "./memory/types";
