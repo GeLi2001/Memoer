@@ -1,6 +1,6 @@
 {
   "name": "memoer",
-  "version": "0.1.11",
+  "version": "0.1.12",
   "description": "Memory management system for LLMs",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -18,6 +18,14 @@
     "conversation",
     "context"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GeLi2001/memoer"
+  },
+  "homepage": "https://memoer-doc.vercel.app/docs/intro",
+  "bugs": {
+    "url": "https://github.com/GeLi2001/memoer/issues"
+  },
   "author": "Ge Li",
   "license": "Apache-2.0",
   "dependencies": {
