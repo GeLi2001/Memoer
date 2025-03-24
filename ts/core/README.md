@@ -59,9 +59,11 @@ const fullHistory = await memory.conversation.getFullContext();
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## Related Packages
+## Support the Project
 
-- `@memoer/web` - React hooks for memory management (coming soon)
+If you find memoer helpful, please consider:
+
+- Giving it a star on [GitHub](https://github.com/GeLi2001/memoer) ⭐
 
 ## License
 
