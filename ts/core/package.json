@@ -1,31 +1,16 @@
 {
   "name": "memoer",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Memory management system for LLMs",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "exports": {
-    ".": {
-      "import": "./dist/index.js",
-      "require": "./dist/index.js",
-      "types": "./dist/index.d.ts"
-    },
-    "./types": {
-      "import": "./dist/index.d.ts",
-      "require": "./dist/index.d.ts"
-    },
-    "./dist": {
-      "import": "./dist/*",
-      "require": "./dist/*"
-    }
-  },
   "scripts": {
-    "clean": "rimraf dist",
-    "build": "npm run clean && tsc",
-    "prepublishOnly": "npm run build"
+    "clean": "rm -rf dist tsconfig.tsbuildinfo",
+    "build": "pnpm run clean && tsc --build --force",
+    "prepublishOnly": "pnpm run build"
   },
   "keywords": [
     "memory",
