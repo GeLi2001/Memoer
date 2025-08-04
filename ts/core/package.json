@@ -1,7 +1,8 @@
 {
   "name": "memoer",
-  "version": "0.1.13",
+  "version": "0.1.14",
   "description": "Memory management system for LLMs",
+  "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -35,6 +36,7 @@
     "ai": ">=2.0.0"
   },
   "devDependencies": {
+    "@types/node": "^24.1.0",
     "rimraf": "^6.0.1",
     "typescript": "^5.0.0"
   },
